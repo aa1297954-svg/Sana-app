@@ -1,0 +1,36 @@
+name: sana
+description: SANA AI Assistant
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  speech_to_text: ^6.6.0
+  flutter_tts: ^3.8.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  share_plus: ^7.2.2
+  url_launcher: ^6.2.4
+  flutter_phone_direct_caller: ^2.1.1
+  permission_handler: ^11.3.0
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  intl: ^0.19.0
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
